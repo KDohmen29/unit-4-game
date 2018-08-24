@@ -36,7 +36,7 @@ $(document).ready(function () {
         button.onclick = function (event) {
             // stores the clicked button into a variable
             var buttonClicked = event.target;
-            // alet the data-value
+            // alert the data-value
 
             button = buttonClicked.getAttribute("data-value")
             button = parseInt(button);

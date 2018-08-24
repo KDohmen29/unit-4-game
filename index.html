@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Addition Magician!</h1>
+    <div id="rules">
+        <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        </p>
+        <br>
+        <p>You win the game by matching your total score to the random number, but you lose if your total score goes above the
+            the random number.</p>
+        <br>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <br>
+        <p>Each time the game starts, the values of the crystals will be different.</p>
+    </div>
+    <h1 class="trgtnumber">Target Number:
+        <span id="target-number"></span>
+    </h1>
+    <div class="wOrL">
+        <h2>Wins:
+            <span id="win-count"></span>
+        </h2>
+        <h2>Losses:
+            <span id="loss-count"></span>
+        </h2>
+    </div>
+    <div class="buttons">
+        <button id="button1" class="crystal">button 1</button>
+        <button id="button2" class="crystal">button 2</button>
+        <button id="button3" class="crystal">button 3</button>
+        <button id="button4" class="crystal">button 4</button>
+    </div>
+    <h1 class="score">Your Score:
+        <span id="your-score"></span>
+    </h1>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

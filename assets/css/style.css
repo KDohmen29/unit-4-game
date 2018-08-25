@@ -27,6 +27,7 @@ body {
     padding: 5px;
     width: 30em;
     margin-left: 25%;
+    
 }
 
 .score{
@@ -34,4 +35,7 @@ body {
     padding: 5px;
     width: 10em;
     margin-left: 32%;
+}
+.crystal {
+    width: 100px;
 }

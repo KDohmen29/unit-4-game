@@ -25,7 +25,7 @@ $(document).ready(function () {
         $("#win-count").text(wins);
         $("#loss-count").text(losses);
 
-    };
+    
 
     // setup onclicks for the buttons
     function buttonSetup(buttonId) {
@@ -66,46 +66,5 @@ $(document).ready(function () {
     buttonSetup("button3");
     buttonSetup("button4");
 
-
-
-    /*button.onclick = function (event) {
-        // stores the clicked button into a variable
-        var buttonClicked = event.target;
-        // alert the data-value
-        alert(buttonClicked.getAttribute("data-value"));
-        crystalValue = (buttonClicked.getAttribute("data-value"));
-    
-        currentScore += crystalValue;
-        console.log(crystalValue)
-        // $("#button").attr("data-value")
-    }
-    
-    
-    /*$("#win-count").text(wins);
-    $("#loss-count").text(losses);
-    // onclick fires
-    
-    
-    if (currentScore === targetNumber) {
-        alert("You win!!")
-        wins++;
-        startGame();
-    }
-    
-    else if (currentScore > targetNumber) {
-        alert("You lose!!")
-        losses++;
-        startGame();
-    }
-    
-    // Number is added to total
-    
-    
-    // Check to see if they have won
-    
-    // until the total is equal to the goal
-    //if (yourScore === targetNumber) {
-    
-    //}*/
-});
+    }});
 
